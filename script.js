@@ -5,16 +5,6 @@ const date = new Date();
 
 let today = date.toLocaleDateString();
 
-
-
-/*const date = new Date(); 
-let day = today.getDay();
-let daylist = ["domenica", "lunedi'", "martedi'", "mercoledi'", "giovedi'", "venerdi'", "sabato"]; 
-
-console.log("Today is: " + daylist[day] + "."); */
-
-
-
 function addValue(){
     if(inputBox.value === ""){
         alert("Non funziona se non inserisci nulla!");
